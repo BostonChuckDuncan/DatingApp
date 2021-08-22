@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\datingApp\\api\\API.csproj": {}
+    "D:\\datingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\datingApp\\api\\API.csproj": {
+    "D:\\datingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\datingApp\\api\\API.csproj",
+        "projectUniqueName": "D:\\datingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\datingApp\\api\\API.csproj",
+        "projectPath": "D:\\datingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\chuck\\.nuget\\packages\\",
-        "outputPath": "D:\\datingApp\\api\\obj\\",
+        "outputPath": "D:\\datingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
@@ -64,6 +64,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.2, )"
             }
           },
           "imports": [
